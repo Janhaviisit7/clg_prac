@@ -1,0 +1,178 @@
+COMMANDS:
+
+PS C:\Users\Admin\Desktop\asg2> npm --version
+9.5.1
+PS C:\Users\Admin\Desktop\asg2> npm install -g @angular/cli@latest
+npm WARN deprecated @npmcli/move-file@2.0.1: This functionality has been moved to @npmcli/fs
+
+changed 245 packages in 41s
+
+31 packages are looking for funding
+  run `npm fund` for details       
+PS C:\Users\Admin\Desktop\asg2> ng new part-c
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
+CREATE part-c/angular.json (2874 bytes)
+CREATE part-c/package.json (1037 bytes)
+CREATE part-c/README.md (1059 bytes)   
+CREATE part-c/tsconfig.json (901 bytes)
+CREATE part-c/.editorconfig (274 bytes)
+CREATE part-c/.gitignore (548 bytes)
+CREATE part-c/tsconfig.app.json (263 bytes)
+CREATE part-c/tsconfig.spec.json (273 bytes)
+CREATE part-c/.vscode/extensions.json (130 bytes)
+CREATE part-c/.vscode/launch.json (470 bytes)
+CREATE part-c/.vscode/tasks.json (938 bytes)
+CREATE part-c/src/favicon.ico (948 bytes)
+CREATE part-c/src/index.html (291 bytes)
+CREATE part-c/src/main.ts (214 bytes)
+CREATE part-c/src/styles.scss (80 bytes)
+CREATE part-c/src/assets/.gitkeep (0 bytes)
+CREATE part-c/src/app/app-routing.module.ts (245 bytes)
+CREATE part-c/src/app/app.module.ts (393 bytes)
+CREATE part-c/src/app/app.component.html (23115 bytes)
+CREATE part-c/src/app/app.component.spec.ts (1073 bytes)
+CREATE part-c/src/app/app.component.ts (211 bytes)
+CREATE part-c/src/app/app.component.scss (0 bytes)
+✔ Packages installed successfully.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+PS C:\Users\Admin\Desktop\asg2> cd part-c
+PS C:\Users\Admin\Desktop\asg2\part-c> ng serve
+? Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more  
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing pseudonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics disable
+
+Global setting: enabled
+Local setting: enabled
+Effective status: enabled
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.04 MB |
+polyfills.js          | polyfills     | 314.26 kB |
+styles.css, styles.js | styles        | 209.85 kB |
+main.js               | main          |  48.38 kB |
+runtime.js            | runtime       |   6.51 kB |
+
+                      | Initial Total |   2.61 MB
+
+Build at: 2023-04-27T04:33:44.332Z - Hash: cf9c02bee37bc08f - Time: 39576ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 48.38 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2023-04-27T04:35:20.414Z - Hash: 78c9b8e7f284fb8a - Time: 953ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+5 unchanged chunks
+
+Build at: 2023-04-27T04:35:21.179Z - Hash: 78c9b8e7f284fb8a - Time: 551ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.76 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2023-04-27T04:35:23.036Z - Hash: 053609b75970f520 - Time: 414ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.76 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2023-04-27T04:35:23.596Z - Hash: 9cb72dbd95093a52 - Time: 299ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    | 10.13 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2023-04-27T04:38:37.243Z - Hash: bbea62cabb7089f0 - Time: 1307ms
+
+√ Compiled successfully.
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names   | Raw Size
+main.js             | main    |  9.99 kB |
+runtime.js          | runtime |  6.51 kB |
+
+3 unchanged chunks
+
+Build at: 2023-04-27T04:39:02.273Z - Hash: c6e0e50ffbb040df - Time: 429ms
+
+√ Compiled successfully.
+
+
+
+
+
+<h1>{{title}}</h1>
+
+<input type="text" #name placeholder="Enter your Name" name="Name"> <br>
+<input type="text" #address placeholder="Enter your Address" name="Address"> <br>
+<input type="text" #contact placeholder="Enter your Contact" name="Contact"> <br>
+<input type="email" #email placeholder="Enter your Email" name="Email"> <br>
+<input type="password" #password placeholder="Enter your Password" name="Passowrd"> <br>
+
+<button (click)="getValue(name.value,address.value,contact.value,email.value)">Register</button> 
+<h1>Your Registered Data</h1><br>
+
+<p>Name:{{displayname}}</p>
+<p>Address: {{displayaddress}}</p>
+<p>Contact: {{displaycontact}}</p>
+<p>Email: {{displayemail}}</p>
+
+
+
+
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = "Registration form";
+
+  displayname='';
+  displayaddress='';
+  displaycontact='';
+  displayemail='';
+
+  getValue(name:string, address:string, contact:string, email:string){
+    this.displayname=name;
+    this.displayaddress=address;
+    this.displaycontact=contact;
+    this.displayemail=email;
+  }
+}
