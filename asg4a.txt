@@ -1,0 +1,380 @@
+HOME PAGE:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogie Talkies</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+        <h1>Blog Posts</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+        <li><a href="index.html" class="ui-btn-active">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="blogs.html">BLOGS</a></li>
+        <li><a href="login.html">JOIN US</a></li>
+        </ul>
+        </div>
+
+        <center><h3>BLOGS FOR ALL</h3></center>
+
+        <div class="content">
+            <center>
+            <div class="rows">
+                <div>
+                    <img src="blog.jpeg" height="180px" width="300px" alt="loading blog">
+                    
+                    <img src="b2.png" height="180px" width="300px" alt="loading blog">
+
+                </div>
+            </div>
+        </center>
+
+        <center>
+            <div>
+                <p><i><b>Share you Ideas and be part of the World's Biggest Blog Community!</b></i></p>
+                <img src="b3.png" height="320px" width="450" alt="loading blog">
+            </div>
+        </center>
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+            <div class="quicklinks">
+                <h3>Quick links</h3>
+            <a href="index.html" >HOME</a><br><br>
+            <a href="aboutus.html">ABOUT US</a><br><br>
+            <a href="blogs.html">BLOGS</a><br><br>
+            <a href="login.html">JOIN US</a><br><br>
+
+            <p>Copyright 2023 | JK Blog, All Rights Reserved</p>
+        </div>
+    </center>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------
+
+ABOUT US:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogie Talkies</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+        <h1>Blog Posts</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+        <li><a href="index.html" class="ui-btn-active">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="blogs.html">BLOGS</a></li>
+        <li><a href="login.html">JOIN US</a></li>
+        </ul>
+        </div>
+
+        <center><h3>Join the Literature Journey for changing world</h3></center>
+
+        <div class="content">
+            <center>
+            <div class="rows">
+                <div>
+                    <img src="b.jpeg" height="180px" width="300px" alt="loading blog">
+
+                    <p>Much like social media platforms, blogs allow people to share their<br>
+                        thoughts and experiences with others. Given the active comment sections,<br>
+                        they enable people to interact with one another and build relationships<br>
+                        based on shared interests that aren’t limited by geographic location.<br>
+                        Essentially, blogs have become a social platform unto themselves.</p>
+                    
+
+                </div>
+            </div>
+        </center>
+
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+            <div class="quicklinks">
+                <h3>Quick links</h3>
+            <a href="index.html" >HOME</a><br><br>
+            <a href="aboutus.html">ABOUT US</a><br><br>
+            <a href="blogs.html">BLOGS</a><br><br>
+            <a href="login.html">JOIN US</a><br><br>
+
+            <p>Copyright 2023 | JK Blog, All Rights Reserved</p>
+        </div>
+    </center>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+--------------------------------------------------------------------------------------------
+
+BLOGS:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogie Talkies</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+        <h1>Blog Posts</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+        <li><a href="index.html" class="ui-btn-active">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="blogs.html">BLOGS</a></li>
+        <li><a href="login.html">JOIN US</a></li>
+        </ul>
+        </div>
+
+        <center><h3>Join the Literature Journey for changing world</h3></center>
+
+        <div class="content">
+            <center>
+            <div class="rows">
+                <div>
+                    <img src="b3.png" height="180px" width="300px" alt="loading blog">
+
+                    <h3>Top Blogs</h3><br>
+
+                    <h4> Blog 1</h4>
+
+                    <p>He’s a very loud and charismatic New Yorker who gained internet <br>
+                        fame as the crazy and outgoing host of Wine Library TV, a video <br>
+                        blog that obsessively talked about everything related to wine. <br>
+                        Through online video blogging (commonly known as vlogging), he <br>
+                        built his wine business from a $3-million-dollar-a-year wine <br>
+                        retail store to a $60 million dollar wine wholesale business.</p>
+
+                        <h4> Blog 2</h4>
+
+                        <p>Leon’s career started at Red Hat, where he worked as a software engineer,<br> 
+                            and because of his work ethic, he quickly became the youngest manager in <br>
+                            the company, overseeing a global team. However, he soon realized that hard <br>
+                            work wasn’t enough to cope with the increasing complexity and requirements <br>
+                            of the job. Before he knew it, he was in search of ways to go beyond his <br>
+                            “fixed ability” and invested heavily in researching everything he could on <br>
+                            productivity and management.</p>
+                    
+
+                </div>
+            </div>
+        </center>
+
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <center>
+            <div class="quicklinks">
+                <h3>Quick links</h3>
+            <a href="index.html" >HOME</a><br><br>
+            <a href="aboutus.html">ABOUT US</a><br><br>
+            <a href="blogs.html">BLOGS</a><br><br>
+            <a href="login.html">JOIN US</a><br><br>
+
+            <p>Copyright 2023 | JK Blog, All Rights Reserved</p>
+        </div>
+    </center>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------
+
+SIGN UP :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute/Join Us</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+        <h1>Blogie Talkies</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="blogs.html">BLOGS</a></li>
+        <li><a href="login.html"  class="ui-btn-active">JOIN US</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div>
+        <center> <h2>Join Us</h2></center>
+        </div>
+
+        <label>Full Name</label>
+        <input type="text"> <br>
+
+        <label>Address</label>
+        <textarea col="25" rows="3"> </textarea> <br>
+
+        <label>Pincode</label>
+        <input type="text"> <br>
+
+        <label>Date of Birth</label>
+        <input type="date"> <br>
+
+        <label>Email Id</label>
+        <input type="email"> <br>
+
+        <label>Password</label>
+        <input type="password"> <br>
+
+        <label>Confirm Password</label>
+        <input type="password"> <br>
+
+        <input type="submit" value="Join the journey"> <br>
+
+        <center> <a href="signup.html">Already a part? Contribute</a></center><br>
+
+    </div>
+    
+
+    
+    <div data-role="footer" data-theme="b">
+        <center>
+        <div class="quicklinks">
+            <h3>Quick links</h3>
+        <a href="index.html" >HOME</a><br><br>
+        <a href="aboutus.html">ABOUT US</a><br><br>
+        <a href="blogs.html">BLOGS</a><br><br>
+        <a href="login.html">JOIN US</a><br><br>
+
+        <p>Copyright 2023 | JK Blog, All Rights Reserved</p>
+    </div>
+</center>
+
+    </div>
+    </div>
+
+        
+
+</body>
+</html>
+
+
+--------------------------------------------------------------
+
+SIGN IN:
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute/Join Us</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header" data-theme="b">
+        <h1>Blogie Talkies</h1>
+    </div>
+    <div data-role="navbar" data-grid="c">
+        <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="blogs.html">BLOGS</a></li>
+        <li><a href="login.html"  class="ui-btn-active">JOIN US</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div>
+        <center> <h2>Contribute</h2></center>
+        </div>
+
+        <label>Email Id</label>
+        <input type="email"> <br>
+
+        <label>Password</label>
+        <input type="password"> <br>
+
+       <input type="submit" value="Add value"> <br>
+
+        <center> <a href="login.html">Didn't join yet?</a></center><br>
+
+    </div>
+    
+
+    
+    <div data-role="footer" data-theme="b">
+        <center>
+        <div class="quicklinks">
+            <h3>Quick links</h3>
+        <a href="index.html" >HOME</a><br><br>
+        <a href="about_us.html">ABOUT US</a><br><br>
+        <a href="blogs.html">BLOGS</a><br><br>
+        <a href="login.html">JOIN US</a><br><br>
+
+        <p>Copyright 2023 | JK Blog, All Rights Reserved</p>
+    </div>
+</center>
+
+    </div>
+    </div>
+
+        
+
+</body>
+</html>
